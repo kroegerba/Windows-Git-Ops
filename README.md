@@ -2,36 +2,36 @@
 ## Backup
 For creating backups use:
 ```windows-command-line
-commit_to_backup.bat
+commit_backup.bat
 ```
 For restoring backups use:
 ```windows-command-line
-switch_to_backup_branch.bat
+checkout_backup.bat
 ```
 ## Staging
 For commiting the current state to the "staging"-branch use:
 ```windows-command-line
-commit_to_staging.bat
+commit_staging.bat
 ```
 For checking out the "staging"-branch - for example on another machine - use:
 ```windows-command-line
-switch_to_staging_branch.bat
+checkout_staging.bat
 ```
 ## Production
 For merging the current commit (of the "staging"-branch) to the "production"-branch use:
 ```windows-command-line
-commit_to_production.bat
+commit_production.bat
 ```
 For checking out the "production"-branch - for example on another machine - use:
 ```windows-command-line
-switch_to_production_branch.bat
+checkout_production.bat
 ```
 ## Navigation
 For navigating to the previous commit of the current branch use:
 ```windows-command-line
-switch_to_previous_commit.bat
+checkout_previous.bat
 ```
 For navigating to the next commit of the current branch use:
 ```windows-command-line
-switch_to_next_commit.bat
+checkout_next.bat
 ```
