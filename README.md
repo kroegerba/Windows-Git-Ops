@@ -26,3 +26,12 @@ For checking out the "production"-branch - for example on another machine - use:
 ```windows-command-line
 switch_to_production_branch.bat
 ```
+## Navigation
+For navigating to the previous commit of the current branch use:
+```windows-command-line
+switch_to_previous_commit.bat
+```
+For navigating to the next commit of the current branch use:
+```windows-command-line
+switch_to_next_commit.bat
+```
